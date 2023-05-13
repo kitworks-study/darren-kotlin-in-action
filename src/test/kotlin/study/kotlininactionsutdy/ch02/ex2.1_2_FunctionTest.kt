@@ -1,10 +1,9 @@
-package study.kotlininactionsutdy.ch02
+package study.kotlininactionsutdy.ch02.test
 
 import ch02.Function.max
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.assertThrows
 
 @DisplayName("[UnitTest] 코틀린 함수 테스트")
 class FunctionTest {

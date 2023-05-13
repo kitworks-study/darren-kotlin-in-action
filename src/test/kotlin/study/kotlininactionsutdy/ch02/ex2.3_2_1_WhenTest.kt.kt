@@ -1,21 +1,15 @@
 package study.kotlininactionsutdy.ch02
 
 import ch02.Enum.Color
-import ch02.StringTemplate.complexStringTemplate
-import ch02.StringTemplate.simpleStringTemplate
 import ch02.When.getMnemonic
 import ch02.When.getWarmth
 import ch02.When.mix
 import ch02.When.mixOptimized
 import org.assertj.core.api.Assertions.assertThat
 import org.assertj.core.api.Assertions.assertThatThrownBy
-import org.junit.jupiter.api.Assertions
-import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.assertAll
 import org.junit.jupiter.params.ParameterizedTest
-import org.junit.jupiter.params.provider.ValueSource
 
 @DisplayName("[UnitTest] 코틀린 When 테스트")
 class WhenTest {
